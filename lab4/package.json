@@ -1,0 +1,21 @@
+{
+  "name": "lab4",
+  "version": "1.0.0",
+  "description": "testing",
+  "main": "Testing.js",
+  "scripts": {
+    "test": "run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "sp21-cse110-lab4"
+  },
+  "keywords": [
+    "git"
+  ],
+  "author": "Rosey Bugayong",
+  "license": "ISC",
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}
