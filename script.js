@@ -16,7 +16,7 @@ button.disabled = false;
 let speech = window.speechSynthesis;
 let voiceType;
 let voices;
-let volume;
+let volume = 1;
 
 //voices
 function populateVoiceList() {
@@ -122,7 +122,7 @@ voiceButton.addEventListener('click', function () {
   var totalText = topText + " " + bottomText;
   let utterThis = new SpeechSynthesisUtterance(totalText);
   utterThis.voice = voiceType;
-  utterThis.volume = volume / 100;
+  utterThis.volume = volume;
   speech.speak(utterThis);
 });
 
@@ -142,7 +142,7 @@ slider.addEventListener('change', function () {
   if (slideThing.value == 0) {
     image.src = "icons/volume-level-0.svg";
   }
-  volume = slideThing.value;
+  volume = slideThing.value / 100;
 });
 
 
