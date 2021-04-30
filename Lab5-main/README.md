@@ -5,7 +5,7 @@
 
 ## Part 1:
 
-LINK TO YOUR PUBLISHED SITE
+Link to published site: (https://roseybugayon.github.io/Lab5/)
 
 ## Part 2:
 
